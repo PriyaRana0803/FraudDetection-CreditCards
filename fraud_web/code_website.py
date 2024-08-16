@@ -1,4 +1,5 @@
-+import numpy as np
++#Code of model
+import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
@@ -18,7 +19,7 @@ training_data_accuracy=accuracy_score(X_train_prediction,Y_train)
 test_data_accuracy=accuracy_score(X_test_prediction,Y_test)
 
 
-#web app
+# code of website
 st.title("Credit Card Fraud Detection Model")
 input_df =st.text_input('Enter All Required Features Values')
 input_df_splited = input_df.split(',')
